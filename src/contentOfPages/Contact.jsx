@@ -1,5 +1,7 @@
 import React from 'react'
 import Networks from '../components/Networks';
+import Map from '../components/Map';
+
 function Contact() {
   return (
     <div className="condiv">
@@ -11,6 +13,9 @@ function Contact() {
             <h3>Email  :   marko.jeremicsd@gmail.com</h3>
             <h3>Instagram   :   @jeramarkovic</h3>
             <Networks />
+            <br></br>
+            <br></br>
+            <Map />
             </div>
   )
 }
